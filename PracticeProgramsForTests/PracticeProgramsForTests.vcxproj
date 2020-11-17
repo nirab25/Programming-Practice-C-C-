@@ -150,6 +150,9 @@
     <ClCompile Include="factorial.cpp" />
     <ClCompile Include="fibonacci.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="palindrome.cpp" />
+    <ClCompile Include="prime.cpp" />
+    <ClCompile Include="printShapes.cpp" />
     <ClCompile Include="stringlen.cpp" />
     <ClCompile Include="stringrev.cpp" />
   </ItemGroup>
