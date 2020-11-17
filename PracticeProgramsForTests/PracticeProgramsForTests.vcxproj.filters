@@ -24,6 +24,12 @@
     <ClCompile Include="stringrev.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fibonacci.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="factorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
