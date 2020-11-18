@@ -33,12 +33,45 @@ int main()
     printRangePrime(10, 19);
 
     //shapes
-    printf("\n\nSize of Triangle:5\n");
+    printf("\n\nShape Size:5\n");
     printTraiangle(5);
+    printPyramid(5);
+    printPyramidIncremental(5);
+    printDiamond(5);
 
-    //palindrome
+    //number
     printf("\nIf a number is palindrome or not:1221\n");
     isPalindromeNumber(121);
+    isPalindromeNumber(1210);
+    sumOfDigits(122140);
+    sumOfDigits(123456789);
+    printf("Sum of the digits (recursion) of %d is %d.\n", 123456789, sumOfDigitsRecursion(123456789));
+    
+    //GCD/HCF and LCM
+    printf("\nGCD/HCF and LCM\n");
+    gcdLcm(55, 11);
+    gcdLcm(5, 11);
+    gcdLcm(25, 3);
+    gcdLcmRecursion(25, 3);
+
+    //leap year
+    printf("\n");
+    leapyear(1201);
+    leapyear(2000);
+
+    //binary
+    decimalToBinary(12);
+
+    //nCr nPr
+    findNcrNpr(8, 5);
+
+    //void isArmstrongNumber(int n) 153=1^3+5^3+3^3 pow=no of digits
+    printf("\n");
+    isArmstrongNumber(153);
+    isArmstrongNumber(56564);
+
+    //pascal triangle
+    printPascalTriangle(7);
 
     return 0;
 }

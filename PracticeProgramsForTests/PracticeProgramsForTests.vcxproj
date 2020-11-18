@@ -147,12 +147,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary.cpp" />
     <ClCompile Include="factorial.cpp" />
     <ClCompile Include="fibonacci.cpp" />
+    <ClCompile Include="gcdlcm.cpp" />
+    <ClCompile Include="leapyear.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="palindrome.cpp" />
+    <ClCompile Include="nCrnPr.cpp" />
+    <ClCompile Include="number.cpp" />
     <ClCompile Include="prime.cpp" />
-    <ClCompile Include="printShapes.cpp" />
+    <ClCompile Include="pattern.cpp" />
     <ClCompile Include="stringlen.cpp" />
     <ClCompile Include="stringrev.cpp" />
   </ItemGroup>
