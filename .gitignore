@@ -2,3 +2,4 @@ PracticeProgramsForTests/.vs/*
 PracticeProgramsForTests/Debug/*
 PracticeProgramsForTests.vcx*
 *.tlog
+/.metadata/
