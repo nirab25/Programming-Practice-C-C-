@@ -16,12 +16,37 @@ public class JavaExamples {
         return octalNumber;
 	}
 	
+	public static void ConvertToHexadecimal(int n)
+	{
+		char[] arr = new char[100];
+		
+		int d = n, rem, i = 0;
+		
+		while(d != 0)
+		{
+			rem = d % 16;
+			if(rem >= 10) {
+				arr[i++] = (char)(rem + 55);
+			} else
+				arr[i++] = (char)(rem + 48);
+			
+			d /= 16;
+		}
+		
+		System.out.println("\nHexadecimal of "+n+" is:");
+		for (int j = i; j >= 0; j--)
+		{
+			System.out.print(arr[j]);
+		}
+	}
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		int decimal = 78;
-		int octal = ConvertDecimalToOctal(decimal);
+		int octal = ConvertDecimalToOctal(78);
 		
 		System.out.println("Octal of 78 is "+octal);
+		
+		ConvertToHexadecimal(2525);
+		ConvertToHexadecimal(2545);
 	}
 }

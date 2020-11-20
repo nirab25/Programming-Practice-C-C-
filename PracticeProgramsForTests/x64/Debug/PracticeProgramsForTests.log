@@ -1,2 +1,8 @@
-﻿  main.cpp
-  PracticeProgramsForTests.vcxproj -> E:\Projects\Github\Programming-Practice-C-CPP-Java\PracticeProgramsForTests\x64\Debug\PracticeProgramsForTests.exe
+﻿  binary.cpp
+  gcdlcm.cpp
+  leapyear.cpp
+  nCrnPr.cpp
+  number.cpp
+  pattern.cpp
+  Generating Code...
+  PracticeProgramsForTests.vcxproj -> E:\Projects\Github\Programming-Practice-C-C-\PracticeProgramsForTests\x64\Debug\PracticeProgramsForTests.exe

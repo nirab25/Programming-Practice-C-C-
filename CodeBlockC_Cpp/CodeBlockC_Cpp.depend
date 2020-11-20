@@ -1,7 +1,20 @@
 # depslib dependency file v1.0
-1605811432 source:e:\projects\github\programming-practice-c-c-\codeblockc_cpp\main.cpp
+1605853672 source:e:\projects\github\programming-practice-c-c-\codeblockc_cpp\main.cpp
 	<iostream>
 	<stdio.h>
+	"includes.h"
 
-1605809549 e:\projects\github\programming-practice-c-c-\codeblockc_cpp\includes.h
+1605853282 e:\projects\github\programming-practice-c-c-\codeblockc_cpp\includes.h
+
+1605851939 source:e:\projects\github\programming-practice-c-c-\codeblockc_cpp\squareroot.cpp
+	"includes.h"
+
+1605852046 source:e:\projects\github\programming-practice-c-c-\codeblockc_cpp\number.cpp
+	<stdio.h>
+	<math.h>
+	"includes.h"
+
+1605853634 source:e:\projects\github\programming-practice-c-c-\codeblockc_cpp\stack.cpp
+	<stdio.h>
+	"includes.h"
 
