@@ -1,8 +1,2 @@
-﻿  binary.cpp
-  gcdlcm.cpp
-  leapyear.cpp
-  nCrnPr.cpp
-  number.cpp
-  pattern.cpp
-  Generating Code...
+﻿  permutatation.cpp
   PracticeProgramsForTests.vcxproj -> E:\Projects\Github\Programming-Practice-C-C-\PracticeProgramsForTests\x64\Debug\PracticeProgramsForTests.exe

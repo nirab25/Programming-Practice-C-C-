@@ -25,7 +25,7 @@ int main()
     //factorial
     printf("Factorial of 8: %d\n", factorial(8));
     printf("Factorial of 12 (Recursion): %ld\n", factRecursion(12));
-    factLargeNumber(100);
+    factLargeNumber(99);
 
     //prime
     printf("\n\nIf number is prime or not (i.e. 10):%d\n", isPrime(10));
@@ -72,6 +72,10 @@ int main()
 
     //pascal triangle
     printPascalTriangle(7);
+
+    printf("\nPermutation of ABC:\n");
+    char arr[] = "ABC";
+    permutate(arr, 0, stringlen(arr)-1);
 
     return 0;
 }

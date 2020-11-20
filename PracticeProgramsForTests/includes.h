@@ -31,3 +31,5 @@ void leapyear(int year);
 void decimalToBinary(int n);
 
 void findNcrNpr(int n, int r);
+
+void permutate(char str[], int left, int right);

@@ -155,6 +155,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="nCrnPr.cpp" />
     <ClCompile Include="number.cpp" />
+    <ClCompile Include="permutatation.cpp" />
     <ClCompile Include="prime.cpp" />
     <ClCompile Include="pattern.cpp" />
     <ClCompile Include="stringlen.cpp" />
