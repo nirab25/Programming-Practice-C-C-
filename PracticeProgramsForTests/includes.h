@@ -32,4 +32,6 @@ void decimalToBinary(int n);
 
 void findNcrNpr(int n, int r);
 
-void permutate(char str[], int left, int right);
+void permutate(char* str, int l, int r);
+
+void callByValueRef();

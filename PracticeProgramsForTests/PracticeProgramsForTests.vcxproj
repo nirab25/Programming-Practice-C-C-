@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binary.cpp" />
+    <ClCompile Include="callByValueRef.cpp" />
     <ClCompile Include="factorial.cpp" />
     <ClCompile Include="fibonacci.cpp" />
     <ClCompile Include="gcdlcm.cpp" />
